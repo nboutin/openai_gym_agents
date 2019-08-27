@@ -35,6 +35,8 @@ from math import pow
 import numpy as np
 import multiprocessing as mp
 
+import visualize
+
 CORE_COUNT = mp.cpu_count()
 EPISODE_COUNT = 100
 
@@ -100,6 +102,16 @@ def run(config_file):
 
     # Display the winning genome.
     print('\nBest genome:\n{!s}'.format(winner))
+    
+    visualize.plot_stats(stats, ylog=False, view=False, filename="fitness.svg")
+
+    name = 'winner'
+    g = winner
+    visualize.draw_net(config, g, view=False, filename=name+"-net.gv")
+    visualize.draw_net(config, g, view=False, filename=name+"-net-enabled.gv",
+                       show_disabled=False)
+    visualize.draw_net(config, g, view=False, filename=name+"-net-enabled-pruned.gv",
+                       show_disabled=False, prune_unused=True)
 
     # Show output of the most fit genome against training data.
 #     print('\nOutput:')
