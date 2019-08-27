@@ -34,7 +34,7 @@ import gym
 from math import pow
 import numpy as np
 
-NUM_CORES = 1
+NUM_CORES = 8
 
 
 def eval_genomes(genomes, config):
@@ -48,12 +48,10 @@ def eval_genome(genome, config):
     return simulate(net, config)
 
 
-env = gym.make('FrozenLake-v0')
-env.seed(0)
-
-
 def simulate(net, config):
     ''' return: fitness'''
+    env = gym.make('FrozenLake-v0')
+#     env.seed(0)
     fitness = config.fitness_threshold
     EPISODE_COUNT = int(config.fitness_threshold)
 
@@ -70,6 +68,7 @@ def simulate(net, config):
             if done:
                 fitness -= pow(reward - 1, 2)
                 break
+    env.close()
     return fitness
 
 
@@ -107,7 +106,7 @@ def run(config_file):
 #         output = winner_net.activate([float(x) for x in i])
 #         print("  input {!r}, expected output {!r}, got {!r}".format(i, majorityFunction(*i), output))
 
-    env.close()
+#     env.close()
 
 
 if __name__ == '__main__':
