@@ -108,10 +108,10 @@ def run(config_file):
     name = 'winner'
     g = winner
     visualize.draw_net(config, g, view=False, filename=name+"-net.gv")
-    visualize.draw_net(config, g, view=False, filename=name+"-net-enabled.gv",
-                       show_disabled=False)
-    visualize.draw_net(config, g, view=False, filename=name+"-net-enabled-pruned.gv",
-                       show_disabled=False, prune_unused=True)
+#     visualize.draw_net(config, g, view=False, filename=name+"-net-enabled.gv",
+#                        show_disabled=False)
+#     visualize.draw_net(config, g, view=False, filename=name+"-net-enabled-pruned.gv",
+#                        show_disabled=False, prune_unused=True)
 
     # Show output of the most fit genome against training data.
 #     print('\nOutput:')
