@@ -33,8 +33,10 @@ import neat
 import gym
 from math import pow
 import numpy as np
+import multiprocessing as mp
 
-NUM_CORES = 8
+CORE_COUNT = mp.cpu_count()
+EPISODE_COUNT = 100
 
 
 def eval_genomes(genomes, config):
@@ -51,9 +53,7 @@ def eval_genome(genome, config):
 def simulate(net, config):
     ''' return: fitness'''
     env = gym.make('FrozenLake-v0')
-#     env.seed(0)
-    fitness = config.fitness_threshold
-    EPISODE_COUNT = int(config.fitness_threshold)
+    fitness = EPISODE_COUNT
 
     for i in range(EPISODE_COUNT):
         observation = env.reset()
@@ -74,6 +74,8 @@ def simulate(net, config):
 
 def run(config_file):
 
+    print("Using ", CORE_COUNT, " core")
+
     # Load configuration.
     config = neat.Config(neat.DefaultGenome, neat.DefaultReproduction,
                          neat.DefaultSpeciesSet, neat.DefaultStagnation,
@@ -90,10 +92,10 @@ def run(config_file):
 
     # Run until a solution is found.
     winner = None
-    if NUM_CORES == 1:
+    if CORE_COUNT == 1:
         winner = p.run(eval_genomes)
     else:
-        pe = neat.ParallelEvaluator(NUM_CORES, eval_genome)
+        pe = neat.ParallelEvaluator(CORE_COUNT, eval_genome)
         winner = p.run(pe.evaluate)
 
     # Display the winning genome.
@@ -105,8 +107,6 @@ def run(config_file):
 #     for i in inputs:
 #         output = winner_net.activate([float(x) for x in i])
 #         print("  input {!r}, expected output {!r}, got {!r}".format(i, majorityFunction(*i), output))
-
-#     env.close()
 
 
 if __name__ == '__main__':
