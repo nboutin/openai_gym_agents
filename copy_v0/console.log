@@ -1,0 +1,2920 @@
+Using  8  core
+
+ ****** Running generation 0 ****** 
+
+Population's average fitness: -63.69667 stdev: 21.77720
+Best fitness: -14.00000 - size: (9, 54) - species 1 - id 32
+Average adjusted fitness: 0.422
+Mean genetic distance 1.194, standard deviation 0.165
+Population of 150 members in 1 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    0   150    -14.0    0.422     0
+Total extinctions: 0
+Generation time: 1.821 sec
+
+ ****** Running generation 1 ****** 
+
+Population's average fitness: -51.68000 stdev: 15.11702
+Best fitness: 2.50000 - size: (9, 52) - species 1 - id 227
+Average adjusted fitness: 0.471
+Mean genetic distance 1.225, standard deviation 0.149
+Population of 150 members in 1 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    1   150      2.5    0.471     0
+Total extinctions: 0
+Generation time: 1.718 sec (1.770 average)
+
+ ****** Running generation 2 ****** 
+
+Population's average fitness: -47.99000 stdev: 12.64258
+Best fitness: -14.00000 - size: (9, 52) - species 1 - id 330
+Average adjusted fitness: 0.605
+Mean genetic distance 1.352, standard deviation 0.178
+Population of 150 members in 1 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    2   150    -14.0    0.605     1
+Total extinctions: 0
+Generation time: 1.874 sec (1.805 average)
+
+ ****** Running generation 3 ****** 
+
+Population's average fitness: -45.37667 stdev: 13.02305
+Best fitness: 35.50000 - size: (9, 52) - species 1 - id 512
+
+Best individual in generation 3 meets fitness threshold - complexity: (9, 52)
+
+Best genome:
+Key: 512
+Fitness: 35.5
+Nodes:
+	0 DefaultNodeGene(key=0, bias=-0.929572497638018, response=1.0, activation=sigmoid, aggregation=sum)
+	1 DefaultNodeGene(key=1, bias=2.037109966192148, response=1.0, activation=sigmoid, aggregation=sum)
+	2 DefaultNodeGene(key=2, bias=-3.0925366605248303, response=1.0, activation=sigmoid, aggregation=sum)
+	3 DefaultNodeGene(key=3, bias=1.7936019045686984, response=1.0, activation=sigmoid, aggregation=sum)
+	4 DefaultNodeGene(key=4, bias=0.30972741245851426, response=1.0, activation=sigmoid, aggregation=sum)
+	5 DefaultNodeGene(key=5, bias=-0.32546611825762917, response=1.0, activation=sigmoid, aggregation=sum)
+	6 DefaultNodeGene(key=6, bias=0.33595014278111357, response=1.0, activation=sigmoid, aggregation=sum)
+	7 DefaultNodeGene(key=7, bias=-1.846366853424192, response=1.0, activation=sigmoid, aggregation=sum)
+	8 DefaultNodeGene(key=8, bias=-0.4616002386057386, response=1.0, activation=sigmoid, aggregation=sum)
+Connections:
+	DefaultConnectionGene(key=(-6, 0), weight=-0.17941145557275423, enabled=True)
+	DefaultConnectionGene(key=(-6, 1), weight=0.24294790904436414, enabled=True)
+	DefaultConnectionGene(key=(-6, 2), weight=-2.416846362993639, enabled=True)
+	DefaultConnectionGene(key=(-6, 3), weight=-2.700883986633621, enabled=True)
+	DefaultConnectionGene(key=(-6, 4), weight=0.17778555069769442, enabled=True)
+	DefaultConnectionGene(key=(-6, 5), weight=-0.0697033853651603, enabled=True)
+	DefaultConnectionGene(key=(-6, 6), weight=-2.5042889038562177, enabled=True)
+	DefaultConnectionGene(key=(-6, 7), weight=-0.4435607074198109, enabled=True)
+	DefaultConnectionGene(key=(-6, 8), weight=0.3782328203599776, enabled=True)
+	DefaultConnectionGene(key=(-5, 0), weight=0.41128673995380194, enabled=True)
+	DefaultConnectionGene(key=(-5, 1), weight=0.09543520225879246, enabled=True)
+	DefaultConnectionGene(key=(-5, 2), weight=-0.25252590189670604, enabled=True)
+	DefaultConnectionGene(key=(-5, 3), weight=0.13851617457765575, enabled=True)
+	DefaultConnectionGene(key=(-5, 4), weight=-1.458833185244556, enabled=True)
+	DefaultConnectionGene(key=(-5, 5), weight=-1.8693231243480921, enabled=True)
+	DefaultConnectionGene(key=(-5, 6), weight=-0.9412168989567428, enabled=False)
+	DefaultConnectionGene(key=(-5, 7), weight=-0.9420773092944901, enabled=True)
+	DefaultConnectionGene(key=(-5, 8), weight=1.7754771039064685, enabled=True)
+	DefaultConnectionGene(key=(-4, 0), weight=0.12919607224155005, enabled=True)
+	DefaultConnectionGene(key=(-4, 1), weight=-2.1347099603681525, enabled=True)
+	DefaultConnectionGene(key=(-4, 2), weight=-0.20083999698722899, enabled=True)
+	DefaultConnectionGene(key=(-4, 3), weight=1.2884744766857588, enabled=True)
+	DefaultConnectionGene(key=(-4, 4), weight=-0.1562221374960825, enabled=True)
+	DefaultConnectionGene(key=(-4, 5), weight=0.012089916997076663, enabled=True)
+	DefaultConnectionGene(key=(-4, 6), weight=0.17038829438175657, enabled=True)
+	DefaultConnectionGene(key=(-4, 7), weight=-0.36614064326241347, enabled=True)
+	DefaultConnectionGene(key=(-4, 8), weight=0.7197819266366502, enabled=True)
+	DefaultConnectionGene(key=(-3, 0), weight=-0.21802985615227885, enabled=True)
+	DefaultConnectionGene(key=(-3, 1), weight=-1.031508780932308, enabled=True)
+	DefaultConnectionGene(key=(-3, 2), weight=0.10338324541850874, enabled=True)
+	DefaultConnectionGene(key=(-3, 3), weight=-1.7088080822611393, enabled=True)
+	DefaultConnectionGene(key=(-3, 4), weight=-1.5373465179233077, enabled=True)
+	DefaultConnectionGene(key=(-3, 5), weight=-0.6818885711588751, enabled=True)
+	DefaultConnectionGene(key=(-3, 6), weight=1.1137238176280018, enabled=True)
+	DefaultConnectionGene(key=(-3, 7), weight=-0.684319879175685, enabled=True)
+	DefaultConnectionGene(key=(-3, 8), weight=-0.6372820649147728, enabled=True)
+	DefaultConnectionGene(key=(-2, 0), weight=0.8069050844810561, enabled=True)
+	DefaultConnectionGene(key=(-2, 1), weight=0.03224337282026779, enabled=True)
+	DefaultConnectionGene(key=(-2, 2), weight=-0.6511970241374873, enabled=True)
+	DefaultConnectionGene(key=(-2, 3), weight=-0.030363278773023916, enabled=True)
+	DefaultConnectionGene(key=(-2, 4), weight=-1.4927833945327658, enabled=True)
+	DefaultConnectionGene(key=(-2, 5), weight=1.7881925188220118, enabled=True)
+	DefaultConnectionGene(key=(-2, 6), weight=0.5167325078693097, enabled=True)
+	DefaultConnectionGene(key=(-2, 7), weight=0.6859101366693536, enabled=True)
+	DefaultConnectionGene(key=(-2, 8), weight=0.16148392059866934, enabled=True)
+	DefaultConnectionGene(key=(-1, 0), weight=-0.10978919552481417, enabled=True)
+	DefaultConnectionGene(key=(-1, 1), weight=0.4619282474208106, enabled=True)
+	DefaultConnectionGene(key=(-1, 2), weight=1.0047140677422624, enabled=True)
+	DefaultConnectionGene(key=(-1, 3), weight=-1.0372849597007803, enabled=True)
+	DefaultConnectionGene(key=(-1, 4), weight=0.7064503794626975, enabled=True)
+	DefaultConnectionGene(key=(-1, 6), weight=-1.7364928627904852, enabled=True)
+	DefaultConnectionGene(key=(-1, 7), weight=1.2312808208582209, enabled=True)
+	DefaultConnectionGene(key=(-1, 8), weight=0.4870088972460813, enabled=True)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mA[0mAD  
+Output Tape         :   
+Targets             :   AAD  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   A[42mA[0mD  
+Output Tape         :   [42mA[0m
+Targets             :   AAD  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 3, step: 2
+==========================================
+Observation Tape    :   AA[42mD[0m  
+Output Tape         :   A[42mA[0m
+Targets             :   AAD  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mE[0mEA  
+Output Tape         :   
+Targets             :   EEA  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   E[42mE[0mA  
+Output Tape         :   [42mE[0m
+Targets             :   EEA  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 3, step: 2
+==========================================
+Observation Tape    :   EE[42mA[0m  
+Output Tape         :   E[42mE[0m
+Targets             :   EEA  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mA[0mAAD  
+Output Tape         :   
+Targets             :   AAAD  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   A[42mA[0mAD  
+Output Tape         :   [42mA[0m
+Targets             :   AAAD  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   AA[42mA[0mD  
+Output Tape         :   A[42mA[0m
+Targets             :   AAAD  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   AAA[42mD[0m  
+Output Tape         :   AA[42mA[0m
+Targets             :   AAAD  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mB[0mDA  
+Output Tape         :   
+Targets             :   BDA  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   B[42mD[0mA  
+Output Tape         :   [42mB[0m
+Targets             :   BDA  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mB[0mAE  
+Output Tape         :   
+Targets             :   BAE  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   B[42mA[0mE  
+Output Tape         :   [42mB[0m
+Targets             :   BAE  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 3, step: 2
+==========================================
+Observation Tape    :   BA[42mE[0m  
+Output Tape         :   B[42mA[0m
+Targets             :   BAE  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mE[0mB  
+Output Tape         :   
+Targets             :   EB  
+
+
+
+
+
+
+Total length of input instance: 2, step: 1
+==========================================
+Observation Tape    :   E[42mB[0m  
+Output Tape         :   [42mE[0m
+Targets             :   EB  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mA[0mD  
+Output Tape         :   
+Targets             :   AD  
+
+
+
+
+
+
+Total length of input instance: 2, step: 1
+==========================================
+Observation Tape    :   A[42mD[0m  
+Output Tape         :   [42mA[0m
+Targets             :   AD  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mE[0mBBD  
+Output Tape         :   
+Targets             :   EBBD  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   E[42mB[0mBD  
+Output Tape         :   [42mE[0m
+Targets             :   EBBD  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   EB[42mB[0mD  
+Output Tape         :   E[42mB[0m
+Targets             :   EBBD  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   EBB[42mD[0m  
+Output Tape         :   EB[42mB[0m
+Targets             :   EBBD  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mB[0mEDA  
+Output Tape         :   
+Targets             :   BEDA  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   B[42mE[0mDA  
+Output Tape         :   [42mB[0m
+Targets             :   BEDA  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   BE[42mD[0mA  
+Output Tape         :   B[42mE[0m
+Targets             :   BEDA  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mD[0mEEA  
+Output Tape         :   
+Targets             :   DEEA  
+
+
+
+
+
+
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mE[0mD  
+Output Tape         :   
+Targets             :   ED  
+
+
+
+
+
+
+Total length of input instance: 2, step: 1
+==========================================
+Observation Tape    :   E[42mD[0m  
+Output Tape         :   [42mE[0m
+Targets             :   ED  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mA[0mD  
+Output Tape         :   
+Targets             :   AD  
+
+
+
+
+
+
+Total length of input instance: 2, step: 1
+==========================================
+Observation Tape    :   A[42mD[0m  
+Output Tape         :   [42mA[0m
+Targets             :   AD  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mD[0mCA  
+Output Tape         :   
+Targets             :   DCA  
+
+
+
+
+
+
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mA[0mC  
+Output Tape         :   
+Targets             :   AC  
+
+
+
+
+
+
+Total length of input instance: 2, step: 1
+==========================================
+Observation Tape    :   A[42mC[0m  
+Output Tape         :   [42mA[0m
+Targets             :   AC  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mA[0mC  
+Output Tape         :   
+Targets             :   AC  
+
+
+
+
+
+
+Total length of input instance: 2, step: 1
+==========================================
+Observation Tape    :   A[42mC[0m  
+Output Tape         :   [42mA[0m
+Targets             :   AC  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mB[0mDE  
+Output Tape         :   
+Targets             :   BDE  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   B[42mD[0mE  
+Output Tape         :   [42mB[0m
+Targets             :   BDE  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mC[0mB  
+Output Tape         :   
+Targets             :   CB  
+
+
+
+
+
+
+Total length of input instance: 2, step: 1
+==========================================
+Observation Tape    :   C[42mB[0m  
+Output Tape         :   [42mC[0m
+Targets             :   CB  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mE[0mABE  
+Output Tape         :   
+Targets             :   EABE  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   E[42mA[0mBE  
+Output Tape         :   [42mE[0m
+Targets             :   EABE  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   EA[42mB[0mE  
+Output Tape         :   E[42mA[0m
+Targets             :   EABE  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   EAB[42mE[0m  
+Output Tape         :   EA[42mB[0m
+Targets             :   EABE  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mC[0mEAC  
+Output Tape         :   
+Targets             :   CEAC  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   C[42mE[0mAC  
+Output Tape         :   [42mC[0m
+Targets             :   CEAC  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   CE[42mA[0mC  
+Output Tape         :   C[42mE[0m
+Targets             :   CEAC  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   CEA[42mC[0m  
+Output Tape         :   CE[42mA[0m
+Targets             :   CEAC  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mC[0mCAC  
+Output Tape         :   
+Targets             :   CCAC  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   C[42mC[0mAC  
+Output Tape         :   [42mC[0m
+Targets             :   CCAC  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   CC[42mA[0mC  
+Output Tape         :   C[42mC[0m
+Targets             :   CCAC  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   CCA[42mC[0m  
+Output Tape         :   CC[42mA[0m
+Targets             :   CCAC  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mE[0mD  
+Output Tape         :   
+Targets             :   ED  
+
+
+
+
+
+
+Total length of input instance: 2, step: 1
+==========================================
+Observation Tape    :   E[42mD[0m  
+Output Tape         :   [42mE[0m
+Targets             :   ED  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mB[0mCDC  
+Output Tape         :   
+Targets             :   BCDC  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   B[42mC[0mDC  
+Output Tape         :   [42mB[0m
+Targets             :   BCDC  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   BC[42mD[0mC  
+Output Tape         :   B[42mC[0m
+Targets             :   BCDC  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mD[0mDE  
+Output Tape         :   
+Targets             :   DDE  
+
+
+
+
+
+
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mB[0mCCC  
+Output Tape         :   
+Targets             :   BCCC  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   B[42mC[0mCC  
+Output Tape         :   [42mB[0m
+Targets             :   BCCC  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   BC[42mC[0mC  
+Output Tape         :   B[42mC[0m
+Targets             :   BCCC  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   BCC[42mC[0m  
+Output Tape         :   BC[42mC[0m
+Targets             :   BCCC  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mE[0mADE  
+Output Tape         :   
+Targets             :   EADE  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   E[42mA[0mDE  
+Output Tape         :   [42mE[0m
+Targets             :   EADE  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   EA[42mD[0mE  
+Output Tape         :   E[42mA[0m
+Targets             :   EADE  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mE[0mC  
+Output Tape         :   
+Targets             :   EC  
+
+
+
+
+
+
+Total length of input instance: 2, step: 1
+==========================================
+Observation Tape    :   E[42mC[0m  
+Output Tape         :   [42mE[0m
+Targets             :   EC  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mD[0mCB  
+Output Tape         :   
+Targets             :   DCB  
+
+
+
+
+
+
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mB[0mAC  
+Output Tape         :   
+Targets             :   BAC  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   B[42mA[0mC  
+Output Tape         :   [42mB[0m
+Targets             :   BAC  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 3, step: 2
+==========================================
+Observation Tape    :   BA[42mC[0m  
+Output Tape         :   B[42mA[0m
+Targets             :   BAC  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mE[0mA  
+Output Tape         :   
+Targets             :   EA  
+
+
+
+
+
+
+Total length of input instance: 2, step: 1
+==========================================
+Observation Tape    :   E[42mA[0m  
+Output Tape         :   [42mE[0m
+Targets             :   EA  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mA[0mEEE  
+Output Tape         :   
+Targets             :   AEEE  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   A[42mE[0mEE  
+Output Tape         :   [42mA[0m
+Targets             :   AEEE  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   AE[42mE[0mE  
+Output Tape         :   A[42mE[0m
+Targets             :   AEEE  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   AEE[42mE[0m  
+Output Tape         :   AE[42mE[0m
+Targets             :   AEEE  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mD[0mBB  
+Output Tape         :   
+Targets             :   DBB  
+
+
+
+
+
+
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mE[0mEBD  
+Output Tape         :   
+Targets             :   EEBD  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   E[42mE[0mBD  
+Output Tape         :   [42mE[0m
+Targets             :   EEBD  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   EE[42mB[0mD  
+Output Tape         :   E[42mE[0m
+Targets             :   EEBD  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   EEB[42mD[0m  
+Output Tape         :   EE[42mB[0m
+Targets             :   EEBD  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mC[0mDDA  
+Output Tape         :   
+Targets             :   CDDA  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   C[42mD[0mDA  
+Output Tape         :   [42mC[0m
+Targets             :   CDDA  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mB[0mA  
+Output Tape         :   
+Targets             :   BA  
+
+
+
+
+
+
+Total length of input instance: 2, step: 1
+==========================================
+Observation Tape    :   B[42mA[0m  
+Output Tape         :   [42mB[0m
+Targets             :   BA  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mA[0mCAE  
+Output Tape         :   
+Targets             :   ACAE  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   A[42mC[0mAE  
+Output Tape         :   [42mA[0m
+Targets             :   ACAE  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   AC[42mA[0mE  
+Output Tape         :   A[42mC[0m
+Targets             :   ACAE  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   ACA[42mE[0m  
+Output Tape         :   AC[42mA[0m
+Targets             :   ACAE  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mE[0mCC  
+Output Tape         :   
+Targets             :   ECC  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   E[42mC[0mC  
+Output Tape         :   [42mE[0m
+Targets             :   ECC  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 3, step: 2
+==========================================
+Observation Tape    :   EC[42mC[0m  
+Output Tape         :   E[42mC[0m
+Targets             :   ECC  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mA[0mEA  
+Output Tape         :   
+Targets             :   AEA  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   A[42mE[0mA  
+Output Tape         :   [42mA[0m
+Targets             :   AEA  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 3, step: 2
+==========================================
+Observation Tape    :   AE[42mA[0m  
+Output Tape         :   A[42mE[0m
+Targets             :   AEA  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mB[0mDDA  
+Output Tape         :   
+Targets             :   BDDA  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   B[42mD[0mDA  
+Output Tape         :   [42mB[0m
+Targets             :   BDDA  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mD[0mCA  
+Output Tape         :   
+Targets             :   DCA  
+
+
+
+
+
+
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mA[0mABA  
+Output Tape         :   
+Targets             :   AABA  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   A[42mA[0mBA  
+Output Tape         :   [42mA[0m
+Targets             :   AABA  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   AA[42mB[0mA  
+Output Tape         :   A[42mA[0m
+Targets             :   AABA  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   AAB[42mA[0m  
+Output Tape         :   AA[42mB[0m
+Targets             :   AABA  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mD[0mB  
+Output Tape         :   
+Targets             :   DB  
+
+
+
+
+
+
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mE[0mCE  
+Output Tape         :   
+Targets             :   ECE  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   E[42mC[0mE  
+Output Tape         :   [42mE[0m
+Targets             :   ECE  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 3, step: 2
+==========================================
+Observation Tape    :   EC[42mE[0m  
+Output Tape         :   E[42mC[0m
+Targets             :   ECE  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mD[0mBA  
+Output Tape         :   
+Targets             :   DBA  
+
+
+
+
+
+
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mD[0mBCA  
+Output Tape         :   
+Targets             :   DBCA  
+
+
+
+
+
+
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mE[0mAED  
+Output Tape         :   
+Targets             :   EAED  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   E[42mA[0mED  
+Output Tape         :   [42mE[0m
+Targets             :   EAED  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   EA[42mE[0mD  
+Output Tape         :   E[42mA[0m
+Targets             :   EAED  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   EAE[42mD[0m  
+Output Tape         :   EA[42mE[0m
+Targets             :   EAED  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mC[0mCC  
+Output Tape         :   
+Targets             :   CCC  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   C[42mC[0mC  
+Output Tape         :   [42mC[0m
+Targets             :   CCC  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 3, step: 2
+==========================================
+Observation Tape    :   CC[42mC[0m  
+Output Tape         :   C[42mC[0m
+Targets             :   CCC  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mD[0mDB  
+Output Tape         :   
+Targets             :   DDB  
+
+
+
+
+
+
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mA[0mAAB  
+Output Tape         :   
+Targets             :   AAAB  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   A[42mA[0mAB  
+Output Tape         :   [42mA[0m
+Targets             :   AAAB  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   AA[42mA[0mB  
+Output Tape         :   A[42mA[0m
+Targets             :   AAAB  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   AAA[42mB[0m  
+Output Tape         :   AA[42mA[0m
+Targets             :   AAAB  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mD[0mC  
+Output Tape         :   
+Targets             :   DC  
+
+
+
+
+
+
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mA[0mAA  
+Output Tape         :   
+Targets             :   AAA  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   A[42mA[0mA  
+Output Tape         :   [42mA[0m
+Targets             :   AAA  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 3, step: 2
+==========================================
+Observation Tape    :   AA[42mA[0m  
+Output Tape         :   A[42mA[0m
+Targets             :   AAA  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mA[0mCAD  
+Output Tape         :   
+Targets             :   ACAD  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   A[42mC[0mAD  
+Output Tape         :   [42mA[0m
+Targets             :   ACAD  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   AC[42mA[0mD  
+Output Tape         :   A[42mC[0m
+Targets             :   ACAD  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   ACA[42mD[0m  
+Output Tape         :   AC[42mA[0m
+Targets             :   ACAD  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mD[0mABD  
+Output Tape         :   
+Targets             :   DABD  
+
+
+
+
+
+
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mE[0mB  
+Output Tape         :   
+Targets             :   EB  
+
+
+
+
+
+
+Total length of input instance: 2, step: 1
+==========================================
+Observation Tape    :   E[42mB[0m  
+Output Tape         :   [42mE[0m
+Targets             :   EB  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mE[0mDCE  
+Output Tape         :   
+Targets             :   EDCE  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   E[42mD[0mCE  
+Output Tape         :   [42mE[0m
+Targets             :   EDCE  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mE[0mAEE  
+Output Tape         :   
+Targets             :   EAEE  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   E[42mA[0mEE  
+Output Tape         :   [42mE[0m
+Targets             :   EAEE  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   EA[42mE[0mE  
+Output Tape         :   E[42mA[0m
+Targets             :   EAEE  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   EAE[42mE[0m  
+Output Tape         :   EA[42mE[0m
+Targets             :   EAEE  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mC[0mBCA  
+Output Tape         :   
+Targets             :   CBCA  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   C[42mB[0mCA  
+Output Tape         :   [42mC[0m
+Targets             :   CBCA  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   CB[42mC[0mA  
+Output Tape         :   C[42mB[0m
+Targets             :   CBCA  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   CBC[42mA[0m  
+Output Tape         :   CB[42mC[0m
+Targets             :   CBCA  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mE[0mEE  
+Output Tape         :   
+Targets             :   EEE  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   E[42mE[0mE  
+Output Tape         :   [42mE[0m
+Targets             :   EEE  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 3, step: 2
+==========================================
+Observation Tape    :   EE[42mE[0m  
+Output Tape         :   E[42mE[0m
+Targets             :   EEE  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mE[0mE  
+Output Tape         :   
+Targets             :   EE  
+
+
+
+
+
+
+Total length of input instance: 2, step: 1
+==========================================
+Observation Tape    :   E[42mE[0m  
+Output Tape         :   [42mE[0m
+Targets             :   EE  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mB[0mBA  
+Output Tape         :   
+Targets             :   BBA  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   B[42mB[0mA  
+Output Tape         :   [42mB[0m
+Targets             :   BBA  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 3, step: 2
+==========================================
+Observation Tape    :   BB[42mA[0m  
+Output Tape         :   B[42mB[0m
+Targets             :   BBA  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mE[0mC  
+Output Tape         :   
+Targets             :   EC  
+
+
+
+
+
+
+Total length of input instance: 2, step: 1
+==========================================
+Observation Tape    :   E[42mC[0m  
+Output Tape         :   [42mE[0m
+Targets             :   EC  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mC[0mEDD  
+Output Tape         :   
+Targets             :   CEDD  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   C[42mE[0mDD  
+Output Tape         :   [42mC[0m
+Targets             :   CEDD  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   CE[42mD[0mD  
+Output Tape         :   C[42mE[0m
+Targets             :   CEDD  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mE[0mDA  
+Output Tape         :   
+Targets             :   EDA  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   E[42mD[0mA  
+Output Tape         :   [42mE[0m
+Targets             :   EDA  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mD[0mCC  
+Output Tape         :   
+Targets             :   DCC  
+
+
+
+
+
+
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mD[0mCC  
+Output Tape         :   
+Targets             :   DCC  
+
+
+
+
+
+
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mB[0mEC  
+Output Tape         :   
+Targets             :   BEC  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   B[42mE[0mC  
+Output Tape         :   [42mB[0m
+Targets             :   BEC  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 3, step: 2
+==========================================
+Observation Tape    :   BE[42mC[0m  
+Output Tape         :   B[42mE[0m
+Targets             :   BEC  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mA[0mAAD  
+Output Tape         :   
+Targets             :   AAAD  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   A[42mA[0mAD  
+Output Tape         :   [42mA[0m
+Targets             :   AAAD  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   AA[42mA[0mD  
+Output Tape         :   A[42mA[0m
+Targets             :   AAAD  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   AAA[42mD[0m  
+Output Tape         :   AA[42mA[0m
+Targets             :   AAAD  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mC[0mC  
+Output Tape         :   
+Targets             :   CC  
+
+
+
+
+
+
+Total length of input instance: 2, step: 1
+==========================================
+Observation Tape    :   C[42mC[0m  
+Output Tape         :   [42mC[0m
+Targets             :   CC  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mC[0mDEE  
+Output Tape         :   
+Targets             :   CDEE  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   C[42mD[0mEE  
+Output Tape         :   [42mC[0m
+Targets             :   CDEE  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mE[0mCCA  
+Output Tape         :   
+Targets             :   ECCA  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   E[42mC[0mCA  
+Output Tape         :   [42mE[0m
+Targets             :   ECCA  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   EC[42mC[0mA  
+Output Tape         :   E[42mC[0m
+Targets             :   ECCA  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   ECC[42mA[0m  
+Output Tape         :   EC[42mC[0m
+Targets             :   ECCA  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mE[0mDB  
+Output Tape         :   
+Targets             :   EDB  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   E[42mD[0mB  
+Output Tape         :   [42mE[0m
+Targets             :   EDB  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mC[0mCAB  
+Output Tape         :   
+Targets             :   CCAB  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   C[42mC[0mAB  
+Output Tape         :   [42mC[0m
+Targets             :   CCAB  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   CC[42mA[0mB  
+Output Tape         :   C[42mC[0m
+Targets             :   CCAB  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   CCA[42mB[0m  
+Output Tape         :   CC[42mA[0m
+Targets             :   CCAB  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mE[0mCCC  
+Output Tape         :   
+Targets             :   ECCC  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   E[42mC[0mCC  
+Output Tape         :   [42mE[0m
+Targets             :   ECCC  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   EC[42mC[0mC  
+Output Tape         :   E[42mC[0m
+Targets             :   ECCC  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   ECC[42mC[0m  
+Output Tape         :   EC[42mC[0m
+Targets             :   ECCC  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mD[0mBA  
+Output Tape         :   
+Targets             :   DBA  
+
+
+
+
+
+
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mA[0mA  
+Output Tape         :   
+Targets             :   AA  
+
+
+
+
+
+
+Total length of input instance: 2, step: 1
+==========================================
+Observation Tape    :   A[42mA[0m  
+Output Tape         :   [42mA[0m
+Targets             :   AA  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mC[0mEC  
+Output Tape         :   
+Targets             :   CEC  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   C[42mE[0mC  
+Output Tape         :   [42mC[0m
+Targets             :   CEC  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 3, step: 2
+==========================================
+Observation Tape    :   CE[42mC[0m  
+Output Tape         :   C[42mE[0m
+Targets             :   CEC  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mC[0mCB  
+Output Tape         :   
+Targets             :   CCB  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   C[42mC[0mB  
+Output Tape         :   [42mC[0m
+Targets             :   CCB  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 3, step: 2
+==========================================
+Observation Tape    :   CC[42mB[0m  
+Output Tape         :   C[42mC[0m
+Targets             :   CCB  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mA[0mD  
+Output Tape         :   
+Targets             :   AD  
+
+
+
+
+
+
+Total length of input instance: 2, step: 1
+==========================================
+Observation Tape    :   A[42mD[0m  
+Output Tape         :   [42mA[0m
+Targets             :   AD  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mE[0mDBE  
+Output Tape         :   
+Targets             :   EDBE  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   E[42mD[0mBE  
+Output Tape         :   [42mE[0m
+Targets             :   EDBE  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mC[0mBE  
+Output Tape         :   
+Targets             :   CBE  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   C[42mB[0mE  
+Output Tape         :   [42mC[0m
+Targets             :   CBE  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 3, step: 2
+==========================================
+Observation Tape    :   CB[42mE[0m  
+Output Tape         :   C[42mB[0m
+Targets             :   CBE  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mE[0mEDC  
+Output Tape         :   
+Targets             :   EEDC  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   E[42mE[0mDC  
+Output Tape         :   [42mE[0m
+Targets             :   EEDC  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   EE[42mD[0mC  
+Output Tape         :   E[42mE[0m
+Targets             :   EEDC  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mE[0mCED  
+Output Tape         :   
+Targets             :   ECED  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   E[42mC[0mED  
+Output Tape         :   [42mE[0m
+Targets             :   ECED  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   EC[42mE[0mD  
+Output Tape         :   E[42mC[0m
+Targets             :   ECED  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   ECE[42mD[0m  
+Output Tape         :   EC[42mE[0m
+Targets             :   ECED  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mD[0mE  
+Output Tape         :   
+Targets             :   DE  
+
+
+
+
+
+
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mA[0mB  
+Output Tape         :   
+Targets             :   AB  
+
+
+
+
+
+
+Total length of input instance: 2, step: 1
+==========================================
+Observation Tape    :   A[42mB[0m  
+Output Tape         :   [42mA[0m
+Targets             :   AB  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mD[0mC  
+Output Tape         :   
+Targets             :   DC  
+
+
+
+
+
+
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mC[0mBCA  
+Output Tape         :   
+Targets             :   CBCA  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   C[42mB[0mCA  
+Output Tape         :   [42mC[0m
+Targets             :   CBCA  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   CB[42mC[0mA  
+Output Tape         :   C[42mB[0m
+Targets             :   CBCA  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   CBC[42mA[0m  
+Output Tape         :   CB[42mC[0m
+Targets             :   CBCA  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mE[0mE  
+Output Tape         :   
+Targets             :   EE  
+
+
+
+
+
+
+Total length of input instance: 2, step: 1
+==========================================
+Observation Tape    :   E[42mE[0m  
+Output Tape         :   [42mE[0m
+Targets             :   EE  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mB[0mAC  
+Output Tape         :   
+Targets             :   BAC  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   B[42mA[0mC  
+Output Tape         :   [42mB[0m
+Targets             :   BAC  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 3, step: 2
+==========================================
+Observation Tape    :   BA[42mC[0m  
+Output Tape         :   B[42mA[0m
+Targets             :   BAC  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mC[0mED  
+Output Tape         :   
+Targets             :   CED  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   C[42mE[0mD  
+Output Tape         :   [42mC[0m
+Targets             :   CED  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 3, step: 2
+==========================================
+Observation Tape    :   CE[42mD[0m  
+Output Tape         :   C[42mE[0m
+Targets             :   CED  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mD[0mEE  
+Output Tape         :   
+Targets             :   DEE  
+
+
+
+
+
+
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mD[0mAE  
+Output Tape         :   
+Targets             :   DAE  
+
+
+
+
+
+
+Total length of input instance: 2, step: 0
+==========================================
+Observation Tape    :   [42mC[0mC  
+Output Tape         :   
+Targets             :   CC  
+
+
+
+
+
+
+Total length of input instance: 2, step: 1
+==========================================
+Observation Tape    :   C[42mC[0m  
+Output Tape         :   [42mC[0m
+Targets             :   CC  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mC[0mCCB  
+Output Tape         :   
+Targets             :   CCCB  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   C[42mC[0mCB  
+Output Tape         :   [42mC[0m
+Targets             :   CCCB  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   CC[42mC[0mB  
+Output Tape         :   C[42mC[0m
+Targets             :   CCCB  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   CCC[42mB[0m  
+Output Tape         :   CC[42mC[0m
+Targets             :   CCCB  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mB[0mCE  
+Output Tape         :   
+Targets             :   BCE  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   B[42mC[0mE  
+Output Tape         :   [42mB[0m
+Targets             :   BCE  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 3, step: 2
+==========================================
+Observation Tape    :   BC[42mE[0m  
+Output Tape         :   B[42mC[0m
+Targets             :   BCE  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 3, step: 0
+==========================================
+Observation Tape    :   [42mB[0mEE  
+Output Tape         :   
+Targets             :   BEE  
+
+
+
+
+
+
+Total length of input instance: 3, step: 1
+==========================================
+Observation Tape    :   B[42mE[0mE  
+Output Tape         :   [42mB[0m
+Targets             :   BEE  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 3, step: 2
+==========================================
+Observation Tape    :   BE[42mE[0m  
+Output Tape         :   B[42mE[0m
+Targets             :   BEE  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mC[0mEAD  
+Output Tape         :   
+Targets             :   CEAD  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   C[42mE[0mAD  
+Output Tape         :   [42mC[0m
+Targets             :   CEAD  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   CE[42mA[0mD  
+Output Tape         :   C[42mE[0m
+Targets             :   CEAD  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: E)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   CEA[42mD[0m  
+Output Tape         :   CE[42mA[0m
+Targets             :   CEAD  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: A)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mC[0mCDB  
+Output Tape         :   
+Targets             :   CCDB  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   C[42mC[0mDB  
+Output Tape         :   [42mC[0m
+Targets             :   CCDB  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   CC[42mD[0mB  
+Output Tape         :   C[42mC[0m
+Targets             :   CCDB  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mC[0mDDE  
+Output Tape         :   
+Targets             :   CDDE  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   C[42mD[0mDE  
+Output Tape         :   [42mC[0m
+Targets             :   CDDE  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mB[0mBBD  
+Output Tape         :   
+Targets             :   BBBD  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   B[42mB[0mBD  
+Output Tape         :   [42mB[0m
+Targets             :   BBBD  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   BB[42mB[0mD  
+Output Tape         :   B[42mB[0m
+Targets             :   BBBD  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   BBB[42mD[0m  
+Output Tape         :   BB[42mB[0m
+Targets             :   BBBD  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mC[0mBBC  
+Output Tape         :   
+Targets             :   CBBC  
+
+
+
+
+
+
+Total length of input instance: 4, step: 1
+==========================================
+Observation Tape    :   C[42mB[0mBC  
+Output Tape         :   [42mC[0m
+Targets             :   CBBC  
+
+Current reward      :   1.000
+Cumulative reward   :   1.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: C)
+Total length of input instance: 4, step: 2
+==========================================
+Observation Tape    :   CB[42mB[0mC  
+Output Tape         :   C[42mB[0m
+Targets             :   CBBC  
+
+Current reward      :   1.000
+Cumulative reward   :   2.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 4, step: 3
+==========================================
+Observation Tape    :   CBB[42mC[0m  
+Output Tape         :   CB[42mB[0m
+Targets             :   CBBC  
+
+Current reward      :   1.000
+Cumulative reward   :   3.000
+Action              :   Tuple(move over input: right,
+                              write to the output tape: True,
+                              prediction: B)
+Total length of input instance: 4, step: 0
+==========================================
+Observation Tape    :   [42mD[0mBAA  
+Output Tape         :   
+Targets             :   DBAA  
+
+
+
+
+
+

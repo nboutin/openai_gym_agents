@@ -20,8 +20,8 @@ if __name__ == '__main__':
 
     logger.set_level(logger.INFO)
 
-    env = gym.make('CartPole-v0')
-#     env = gym.make('Copy-v0')
+#     env = gym.make('CartPole-v0')
+    env = gym.make('Copy-v0')
 #     env = gym.make('MountainCar-v0')
 #     env = gym.make('MsPacman-v0')
 
@@ -38,6 +38,7 @@ if __name__ == '__main__':
     done = False
 
     for i in range(EPISODE_COUNT):
+        print("Episode ", i)
         observation = env.reset()
         while True:
             env.render()
