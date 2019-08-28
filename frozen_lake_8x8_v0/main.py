@@ -54,7 +54,7 @@ def eval_genome(genome, config):
 
 def simulate(net, config):
     ''' return: fitness'''
-    env = gym.make('FrozenLake-v0')
+    env = gym.make('FrozenLake8x8-v0')
     fitness = EPISODE_COUNT
 
     for i in range(EPISODE_COUNT):
